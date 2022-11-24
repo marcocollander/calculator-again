@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+    margin-left: 10px;
+
+    &-picture {
+      width: 200px;
+      border-radius: 50%;
+      aspect-ratio: 1/1;
+    }
+  }
+
+  &__heading {
+    font-size: 2rem;
+  }
+
+}
+
+.menu {
+  &__list {
+    list-style: none;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+  }
+
+  &__item {
+    margin-left: 5px;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #fff;
+  }
+}
